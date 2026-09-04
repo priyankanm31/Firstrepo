@@ -1,0 +1,56 @@
+/* 1. Global Reset & Page Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6; /* Soft light grey background */
+    color: #333333;            /* Dark grey text for readability */
+    padding: 40px 20px;
+}
+
+/* 2. Layout Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;            /* Centers the container horizontally */
+    background: #ffffff;       /* White background card */
+    padding: 30px;
+    border-radius: 8px;        /* Slightly rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle drop shadow */
+}
+
+/* 3. Typography Styles */
+h1 {
+    color: #2c3e50;            /* Deep slate blue */
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+/* 4. Component Styles (Button) */
+.btn-primary {
+    display: inline-block;
+    background-color: #3498db; /* Vibrant blue button */
+    color: #ffffff;
+    padding: 12px 24px;
+    text-decoration: none;     /* Removes underline from links */
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover State Effect */
+.btn-primary:hover {
+    background-color: #2980b9; /* Darker blue when mouse hovers over */
+    cursor: pointer;
+}
+:wq
+
